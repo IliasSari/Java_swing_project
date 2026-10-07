@@ -49,10 +49,12 @@ public class Main {
 		frame.setSize(500,500);
 		frame.setLayout(null);
 		frame.setVisible(true);
-		greenPanel.add(label);
+		bluePanel.add(label);
 		frame.add(greenPanel);
 		frame.add(bluePanel);
 		frame.add(redPanel);
+
+		new Button();
 	}
 
 }
